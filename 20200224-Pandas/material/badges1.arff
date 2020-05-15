@@ -1,0 +1,307 @@
+@relation badges-weka.filters.unsupervised.attribute.Remove-R5
+
+@attribute name {'Aaron Feigelson','Alexander M. Meystel','Alma Whitten','Ameur Foued','Andrew W. Moore','Andrew Y. Ng','Andrey Burago','Anselm Blumer','Antoine Cornuejols','Arlindo Oliveira','Armand Prieditis','Arun Sharma','Attilio Giordana','Aurora Perez','Avrim Blum','Bala Kalyanasundaram','Barak A. Pearlmutter','Bernhard Pfahringer','Bhaskar Dasgupta','Bill Byrne','Bir Bhanu','Bob Evans','Bradley L. Whitehall','Brian D. Davidson','Brian Tester','Bruce A. MacDonald','Carl H. Smith','Carla E. Brodley','Charles X. Ling','Chen K. Tham','Chidanand Apte','Chris Darken','Chris Drummond','Chun-Nan Hsu','Claire Cardie','Clare Bates Congdon','Claude Sammut','Claudio Facchinetti','Craig Knoblock','Craig Nevill-Manning','Cristina Baroglio','Cullen Schaffer','Dan Oblinger','Dan Roth','Dana Angluin','Dana Ron','Daniel Hennessy','Daniel Kortenkamp','Daniel L. Silver','Darko Zupanic','David B. Skalak','David Cohn','David Finton','David Gillman','David Haussler','David Helmbold','David Loewenstern','David Mathias','David Montgomery','David Pierce','David W. Aha','David W. Opitz','Dennis F. Kibler','Diana Gordon','Donna Slonim','Drago Indjic','Dunja Mladenic','Earl S. Harris Jr.','Ed Pednault','Eddy Mayoraz','Efim Kinber','Emanuel Knill','Eric Allender','Eric Baum','Eyal Kushilevitz','Fernando Pereira','Filippo Neri','Foster J. Provost','Frank Stephan','Gary M. Selzer','Gary Weiss','Geoffrey Gordon','George A. Drastal','George Berg','George H. John','Gerald F. DeJong','Glenn Silverstein','Grigoris Karakoulas','Hal Duncan','Haralabos Athanassiou','Harris Drucker','Haym Hirsh','Hiroshi Motoda','Hiroshi Tanaka','Holly Yanco','Huw Roberts','Irina Tchoumatchenko','J. Jeffrey Mahoney','J. R. Quinlan','James S. Royer','Janusz Wnek','Jason Catlett','Javed Aslam','Jean Gabriel Ganascia','Jean-Daniel Zucker','Jeff Jackson','Jeffery Clouse','Jiarong Hong','Jing Peng','Joe Suzuki','Joel Ratsaby','Johanne Morin','Johannes Furnkranz','John Case','John Fischer','John M. Zelle','John R. Rose','John Rachlin','Jonathan Gratch','Jonathan Hodgson','Jong-Hoon Oh','Jorg-Uwe Kietz','Jose L. Balcazar','Joseph O\'Sullivan','Jude Shavlik','Judy A. Franklin','Justin Boyan','Justinian Rosca','Jyrki Kivinen','Kamal M. Ali','Kan Deng','Karsten Verbeurgt','Kate Goelz','Kazushi Ikeda','Ken Lang','Kenji Yamanishi','Kimmen Sjolander','Klaus P. Jantke','Krishnan Pillaipakkamnatt','L. Thorne McCarty','Lance Fortnow','Lance Riley','Lars Asker','Leonard Pitt','Leslie Grate','Leslie Pack Kaelbling','Lindley Darden','Lisa Hellerstein','Long-Ji Lin','Lorenza Saitta','Lorien Y. Pratt','Lyle H. Ungar','Maja Mataric','Malini Bhandaru','Mandayam T. Suraj','Manfred Warmuth','Marcos Salganicoff','Margo Guertin','Mario Marchand','Mark Changizi','Mark Schwabacher','Mark Staley','Mark W. Craven','Marko Grobelnik','Martin Kummer','Martinch Krikis','Mary Soon Lee','Masayuki Inaba','Matevz Kovacic','Matthias Heger','Melinda T. Gervasio','Merrick L. Furst','Michael A. meystel','Michael I. Jordan','Michael J. Donahue','Michael Kearns','Michael Littman','Michael Redmond','Michael W. Barley','Michael de la Maza','Michele Sebag','Minoru Asada','Mona Singh','Moshe Koppel','Moshe Leshno','Myriam Abramson','Nader Bshouty','Naoki Abe','Nathalie Japkowicz','Neela Khan','Neil Berkman','Nicolas Fiechter','Nicolo Cesa-Bianchi','Nikolay Nikolaev','Nina Mishra','Nitin Indurkhya','Oded Maron','Olivier De Vel','Pang-Chieh Chen','Pascal Koiran','Pat Langley','Patricia J. Riddle','Patrick M. Murphy','Paul Fischer','Paul Utgoff','Paul Vitanyi','Paul W. Goldberg','Peter Bartlett','Phil Long','Philip Chan','Prasad Tadepalli','Priscilla Rasmussen','R. Andrew McCallum','R. Bharat Rao','Randolph Jones','Reinhard Blasig','Ricard Gavalda','Rich Maclin','Richard A. Caruana','Richard S. Sutton','Robert C. Holte','Robert P. Daley','Robert S. Roos','Robert Schapire','Robert Sloan','Robert Williamson','Roberto Piola','Ron Kohavi','Ronald L. Rivest','Roni Khardon','Ronitt Rubinfeld','Russell Greiner','Sally Goldman','Sandra Panizza','Sanjay Jain','Satinder Pal Singh','Scott E. Decatur','Sean Slattery','Sebastian Seung','Seth Flanders','Shai Ben-David','Shaul Markovitch','Sholom Weiss','Sonya Snedecor','Sreerama K. Murthy','Sridhar Mahadevan','Stan Matwin','Stefan Kramer','Steffen Lange','Stephen Kwek','Stephen Muggleton','Steve A. Chien','Steven Minton','Steven Salzberg','Steven W. Norton','Stuart Russell','Susan L. Epstein','Takefumi Yamazaki','Tal Grossman','Tapio Elomaa','Tatsuo Unemi','Thomas E. Kammeyer','Thomas Ellman','Thomas G. Dietterich','Thomas G. Spalthoff','Thomas Wengerek','Thomas Zeugmann','Timothy P. Barber','Tom Bylander','Tom Fawcett','Tom Hancock','Tom M. Mitchell','Toshiyasu Matsushima','Usama Fayyad','Vijay Raghavan','Von-Wun Soo','Wai Lam','Wan P. Chiang','Wee Sun Lee','Welton Becket','William A. Greene','William Cohen','William Gasarch','William Sakas','Wolfgang Janko','Wolfgang Maass','Wray Buntine','Xuemei Wang','Yishay Mansour','Yoav Freund','Yolanda Gil','Yoram Singer','Yoshifumi Sakai','Zhixiang Chen'}
+@attribute length numeric
+@attribute even_odd {0,1}
+@attribute first_char_vowel {0,1}
+@attribute consonants numeric
+@attribute spaces numeric
+@attribute dots numeric
+@attribute words numeric
+@attribute class {-,+}
+
+@data
+'Aaron Feigelson',15,0,1,7,1,0,2,-
+'Alexander M. Meystel',20,1,1,11,2,1,3,-
+'Alma Whitten',12,1,1,7,1,0,2,+
+'Ameur Foued',11,0,1,4,1,0,2,-
+'Andrew W. Moore',15,0,1,7,2,1,3,-
+'Andrew Y. Ng',12,1,1,7,2,1,3,+
+'Andrey Burago',13,0,1,7,1,0,2,-
+'Anselm Blumer',13,0,1,8,1,0,2,+
+'Antoine Cornuejols',18,1,1,9,1,0,2,-
+'Arlindo Oliveira',16,1,1,7,1,0,2,-
+'Armand Prieditis',16,1,1,9,1,0,2,-
+'Arun Sharma',11,0,1,6,1,0,2,+
+'Attilio Giordana',16,1,1,7,1,0,2,-
+'Aurora Perez',12,1,1,5,1,0,2,-
+'Avrim Blum',10,1,1,6,1,0,2,+
+'Bala Kalyanasundaram',20,1,0,11,1,0,2,-
+'Barak A. Pearlmutter',20,1,0,10,2,1,3,-
+'Bernhard Pfahringer',19,0,0,13,1,0,2,-
+'Bhaskar Dasgupta',16,1,0,10,1,0,2,-
+'Bill Byrne',10,1,0,7,1,0,2,+
+'Bir Bhanu',9,0,0,5,1,0,2,+
+'Bob Evans',9,0,0,5,1,0,2,+
+'Bradley L. Whitehall',20,1,0,12,2,1,3,-
+'Brian D. Davidson',17,0,0,9,2,1,3,-
+'Brian Tester',12,1,0,7,1,0,2,+
+'Bruce A. MacDonald',18,1,0,9,2,1,3,-
+'Carl H. Smith',13,0,0,8,2,1,3,+
+'Carla E. Brodley',16,1,0,8,2,1,3,-
+'Charles X. Ling',15,0,0,9,2,1,3,+
+'Chen K. Tham',12,1,0,7,2,1,3,+
+'Chidanand Apte',14,1,0,8,1,0,2,-
+'Chris Darken',12,1,0,8,1,0,2,+
+'Chris Drummond',14,1,0,10,1,0,2,+
+'Chun-Nan Hsu',12,1,0,8,1,0,2,+
+'Claire Cardie',13,0,0,6,1,0,2,-
+'Clare Bates Congdon',19,0,0,11,2,0,3,-
+'Claude Sammut',13,0,0,7,1,0,2,-
+'Claudio Facchinetti',19,0,0,10,1,0,2,-
+'Craig Knoblock',14,1,0,9,1,0,2,+
+'Craig Nevill-Manning',20,1,0,13,1,0,2,-
+'Cristina Baroglio',17,0,0,9,1,0,2,-
+'Cullen Schaffer',15,0,0,10,1,0,2,+
+'Dan Oblinger',12,1,0,7,1,0,2,+
+'Dan Roth',8,1,0,5,1,0,2,+
+'Dana Angluin',12,1,0,6,1,0,2,-
+'Dana Ron',8,1,0,4,1,0,2,+
+'Daniel Hennessy',15,0,0,9,1,0,2,-
+'Daniel Kortenkamp',17,0,0,10,1,0,2,-
+'Daniel L. Silver',16,1,0,8,2,1,3,-
+'Darko Zupanic',13,0,0,7,1,0,2,-
+'David B. Skalak',15,0,0,8,2,1,3,+
+'David Cohn',10,1,0,6,1,0,2,+
+'David Finton',12,1,0,7,1,0,2,+
+'David Gillman',13,0,0,8,1,0,2,+
+'David Haussler',14,1,0,8,1,0,2,-
+'David Helmbold',14,1,0,9,1,0,2,+
+'David Loewenstern',17,0,0,10,1,0,2,-
+'David Mathias',13,0,0,7,1,0,2,-
+'David Montgomery',16,1,0,10,1,0,2,-
+'David Pierce',12,1,0,6,1,0,2,-
+'David W. Aha',12,1,0,5,2,1,3,+
+'David W. Opitz',14,1,0,7,2,1,3,+
+'Dennis F. Kibler',16,1,0,9,2,1,3,+
+'Diana Gordon',12,1,0,6,1,0,2,-
+'Donna Slonim',12,1,0,7,1,0,2,+
+'Drago Indjic',12,1,0,7,1,0,2,+
+'Dunja Mladenic',14,1,0,8,1,0,2,-
+'Earl S. Harris Jr.',18,1,1,9,3,2,4,+
+'Ed Pednault',11,0,1,6,1,0,2,+
+'Eddy Mayoraz',12,1,1,7,1,0,2,+
+'Efim Kinber',11,0,1,6,1,0,2,+
+'Emanuel Knill',13,0,1,7,1,0,2,-
+'Eric Allender',13,0,1,7,1,0,2,-
+'Eric Baum',9,0,1,4,1,0,2,+
+'Eyal Kushilevitz',16,1,1,9,1,0,2,-
+'Fernando Pereira',16,1,0,8,1,0,2,-
+'Filippo Neri',12,1,0,6,1,0,2,-
+'Foster J. Provost',17,0,0,10,2,1,3,+
+'Frank Stephan',13,0,0,9,1,0,2,+
+'Gary M. Selzer',14,1,0,8,2,1,3,+
+'Gary Weiss',10,1,0,6,1,0,2,+
+'Geoffrey Gordon',15,0,0,9,1,0,2,-
+'George A. Drastal',17,0,0,8,2,1,3,-
+'George Berg',11,0,0,6,1,0,2,+
+'George H. John',14,1,0,7,2,1,3,+
+'Gerald F. DeJong',16,1,0,9,2,1,3,+
+'Glenn Silverstein',17,0,0,11,1,0,2,-
+'Grigoris Karakoulas',19,0,0,10,1,0,2,-
+'Hal Duncan',10,1,0,6,1,0,2,+
+'Haralabos Athanassiou',21,0,0,10,1,0,2,-
+'Harris Drucker',14,1,0,9,1,0,2,+
+'Haym Hirsh',10,1,0,7,1,0,2,+
+'Hiroshi Motoda',14,1,0,7,1,0,2,-
+'Hiroshi Tanaka',14,1,0,7,1,0,2,-
+'Holly Yanco',11,0,0,7,1,0,2,+
+'Huw Roberts',11,0,0,7,1,0,2,+
+'Irina Tchoumatchenko',20,1,1,11,1,0,2,-
+'J. Jeffrey Mahoney',18,1,0,10,2,1,3,-
+'J. R. Quinlan',13,0,0,6,2,2,3,+
+'James S. Royer',14,1,0,7,2,1,3,+
+'Janusz Wnek',11,0,0,7,1,0,2,+
+'Jason Catlett',13,0,0,8,1,0,2,+
+'Javed Aslam',11,0,0,6,1,0,2,+
+'Jean Gabriel Ganascia',21,0,0,10,2,0,3,-
+'Jean-Daniel Zucker',18,1,0,10,1,0,2,-
+'Jeff Jackson',12,1,0,8,1,0,2,+
+'Jeffery Clouse',14,1,0,8,1,0,2,-
+'Jiarong Hong',12,1,0,7,1,0,2,+
+'Jing Peng',9,0,0,6,1,0,2,+
+'Joe Suzuki',10,1,0,4,1,0,2,-
+'Joel Ratsaby',12,1,0,7,1,0,2,+
+'Johanne Morin',13,0,0,7,1,0,2,-
+'Johannes Furnkranz',18,1,0,12,1,0,2,-
+'John Case',9,0,0,5,1,0,2,+
+'John Fischer',12,1,0,8,1,0,2,+
+'John M. Zelle',13,0,0,7,2,1,3,+
+'John R. Rose',12,1,0,6,2,1,3,+
+'John Rachlin',12,1,0,8,1,0,2,+
+'Jonathan Gratch',15,0,0,10,1,0,2,+
+'Jonathan Hodgson',16,1,0,10,1,0,2,-
+'Jong-Hoon Oh',12,1,0,7,1,0,2,+
+'Jorg-Uwe Kietz',14,1,0,8,1,0,2,-
+'Jose L. Balcazar',16,1,0,8,2,1,3,-
+'Joseph O\'Sullivan',17,0,0,10,1,0,2,-
+'Jude Shavlik',12,1,0,7,1,0,2,+
+'Judy A. Franklin',16,1,0,9,2,1,3,+
+'Justin Boyan',12,1,0,7,1,0,2,+
+'Justinian Rosca',15,0,0,8,1,0,2,-
+'Jyrki Kivinen',13,0,0,8,1,0,2,+
+'Kamal M. Ali',12,1,0,5,2,1,3,+
+'Kan Deng',8,1,0,5,1,0,2,+
+'Karsten Verbeurgt',17,0,0,11,1,0,2,-
+'Kate Goelz',10,1,0,5,1,0,2,+
+'Kazushi Ikeda',13,0,0,6,1,0,2,-
+'Ken Lang',8,1,0,5,1,0,2,+
+'Kenji Yamanishi',15,0,0,8,1,0,2,-
+'Kimmen Sjolander',16,1,0,10,1,0,2,-
+'Klaus P. Jantke',15,0,0,8,2,1,3,+
+'Krishnan Pillaipakkamnatt',25,0,0,16,1,0,2,-
+'L. Thorne McCarty',17,0,0,11,2,1,3,+
+'Lance Fortnow',13,0,0,8,1,0,2,+
+'Lance Riley',11,0,0,6,1,0,2,+
+'Lars Asker',10,1,0,6,1,0,2,+
+'Leonard Pitt',12,1,0,7,1,0,2,+
+'Leslie Grate',12,1,0,6,1,0,2,-
+'Leslie Pack Kaelbling',21,0,0,12,2,0,3,-
+'Lindley Darden',14,1,0,9,1,0,2,+
+'Lisa Hellerstein',16,1,0,9,1,0,2,-
+'Long-Ji Lin',11,0,0,7,1,0,2,+
+'Lorenza Saitta',14,1,0,7,1,0,2,-
+'Lorien Y. Pratt',15,0,0,8,2,1,3,+
+'Lyle H. Ungar',13,0,0,7,2,1,3,+
+'Maja Mataric',12,1,0,6,1,0,2,-
+'Malini Bhandaru',15,0,0,8,1,0,2,-
+'Mandayam T. Suraj',17,0,0,9,2,1,3,-
+'Manfred Warmuth',15,0,0,10,1,0,2,+
+'Marcos Salganicoff',18,1,0,11,1,0,2,-
+'Margo Guertin',13,0,0,7,1,0,2,-
+'Mario Marchand',14,1,0,8,1,0,2,-
+'Mark Changizi',13,0,0,8,1,0,2,+
+'Mark Schwabacher',16,1,0,11,1,0,2,+
+'Mark Staley',11,0,0,7,1,0,2,+
+'Mark W. Craven',14,1,0,8,2,1,3,+
+'Marko Grobelnik',15,0,0,9,1,0,2,-
+'Martin Kummer',13,0,0,8,1,0,2,+
+'Martinch Krikis',15,0,0,10,1,0,2,+
+'Mary Soon Lee',13,0,0,6,2,0,3,-
+'Masayuki Inaba',14,1,0,6,1,0,2,-
+'Matevz Kovacic',14,1,0,8,1,0,2,-
+'Matthias Heger',14,1,0,8,1,0,2,-
+'Melinda T. Gervasio',19,0,0,9,2,1,3,-
+'Merrick L. Furst',16,1,0,10,2,1,3,+
+'Michael A. meystel',18,1,0,9,2,1,3,-
+'Michael I. Jordan',17,0,0,8,2,1,3,-
+'Michael J. Donahue',18,1,0,8,2,1,3,-
+'Michael Kearns',14,1,0,8,1,0,2,-
+'Michael Littman',15,0,0,9,1,0,2,-
+'Michael Redmond',15,0,0,9,1,0,2,-
+'Michael W. Barley',17,0,0,9,2,1,3,-
+'Michael de la Maza',18,1,0,8,3,0,4,-
+'Michele Sebag',13,0,0,7,1,0,2,-
+'Minoru Asada',12,1,0,5,1,0,2,-
+'Mona Singh',10,1,0,6,1,0,2,+
+'Moshe Koppel',12,1,0,7,1,0,2,+
+'Moshe Leshno',12,1,0,7,1,0,2,+
+'Myriam Abramson',15,0,0,9,1,0,2,-
+'Nader Bshouty',13,0,0,8,1,0,2,+
+'Naoki Abe',9,0,0,3,1,0,2,-
+'Nathalie Japkowicz',18,1,0,10,1,0,2,-
+'Neela Khan',10,1,0,5,1,0,2,+
+'Neil Berkman',12,1,0,7,1,0,2,+
+'Nicolas Fiechter',16,1,0,9,1,0,2,-
+'Nicolo Cesa-Bianchi',19,0,0,10,1,0,2,-
+'Nikolay Nikolaev',16,1,0,8,1,0,2,-
+'Nina Mishra',11,0,0,6,1,0,2,+
+'Nitin Indurkhya',15,0,0,9,1,0,2,-
+'Oded Maron',10,1,1,5,1,0,2,+
+'Olivier De Vel',14,1,1,6,2,0,3,-
+'Pang-Chieh Chen',15,0,0,10,1,0,2,+
+'Pascal Koiran',13,0,0,7,1,0,2,-
+'Pat Langley',11,0,0,7,1,0,2,+
+'Patricia J. Riddle',18,1,0,9,2,1,3,-
+'Patrick M. Murphy',17,0,0,11,2,1,3,+
+'Paul Fischer',12,1,0,7,1,0,2,+
+'Paul Utgoff',11,0,0,6,1,0,2,+
+'Paul Vitanyi',12,1,0,6,1,0,2,-
+'Paul W. Goldberg',16,1,0,9,2,1,3,+
+'Peter Bartlett',14,1,0,9,1,0,2,+
+'Phil Long',9,0,0,6,1,0,2,+
+'Philip Chan',11,0,0,7,1,0,2,+
+'Prasad Tadepalli',16,1,0,9,1,0,2,-
+'Priscilla Rasmussen',19,0,0,12,1,0,2,-
+'R. Andrew McCallum',18,1,0,11,2,1,3,+
+'R. Bharat Rao',13,0,0,6,2,1,3,+
+'Randolph Jones',14,1,0,9,1,0,2,+
+'Reinhard Blasig',15,0,0,9,1,0,2,-
+'Ricard Gavalda',14,1,0,8,1,0,2,-
+'Rich Maclin',11,0,0,7,1,0,2,+
+'Richard A. Caruana',18,1,0,8,2,1,3,-
+'Richard S. Sutton',17,0,0,10,2,1,3,+
+'Robert C. Holte',15,0,0,8,2,1,3,+
+'Robert P. Daley',15,0,0,8,2,1,3,+
+'Robert S. Roos',14,1,0,7,2,1,3,+
+'Robert Schapire',15,0,0,9,1,0,2,-
+'Robert Sloan',12,1,0,7,1,0,2,+
+'Robert Williamson',17,0,0,10,1,0,2,-
+'Roberto Piola',13,0,0,6,1,0,2,-
+'Ron Kohavi',10,1,0,5,1,0,2,+
+'Ronald L. Rivest',16,1,0,9,2,1,3,+
+'Roni Khardon',12,1,0,7,1,0,2,+
+'Ronitt Rubinfeld',16,1,0,10,1,0,2,-
+'Russell Greiner',15,0,0,9,1,0,2,-
+'Sally Goldman',13,0,0,9,1,0,2,+
+'Sandra Panizza',14,1,0,8,1,0,2,-
+'Sanjay Jain',11,0,0,6,1,0,2,+
+'Satinder Pal Singh',18,1,0,11,2,0,3,-
+'Scott E. Decatur',16,1,0,8,2,1,3,-
+'Sean Slattery',13,0,0,8,1,0,2,+
+'Sebastian Seung',15,0,0,8,1,0,2,-
+'Seth Flanders',13,0,0,9,1,0,2,+
+'Shai Ben-David',14,1,0,8,1,0,2,-
+'Shaul Markovitch',16,1,0,10,1,0,2,-
+'Sholom Weiss',12,1,0,7,1,0,2,+
+'Sonya Snedecor',14,1,0,8,1,0,2,-
+'Sreerama K. Murthy',18,1,0,10,2,1,3,-
+'Sridhar Mahadevan',17,0,0,10,1,0,2,-
+'Stan Matwin',11,0,0,7,1,0,2,+
+'Stefan Kramer',13,0,0,8,1,0,2,+
+'Steffen Lange',13,0,0,8,1,0,2,+
+'Stephen Kwek',12,1,0,8,1,0,2,+
+'Stephen Muggleton',17,0,0,11,1,0,2,-
+'Steve A. Chien',14,1,0,6,2,1,3,-
+'Steven Minton',13,0,0,8,1,0,2,+
+'Steven Salzberg',15,0,0,10,1,0,2,+
+'Steven W. Norton',16,1,0,9,2,1,3,+
+'Stuart Russell',14,1,0,9,1,0,2,+
+'Susan L. Epstein',16,1,0,8,2,1,3,-
+'Takefumi Yamazaki',17,0,0,8,1,0,2,-
+'Tal Grossman',12,1,0,8,1,0,2,+
+'Tapio Elomaa',12,1,0,4,1,0,2,-
+'Tatsuo Unemi',12,1,0,5,1,0,2,-
+'Thomas E. Kammeyer',18,1,0,9,2,1,3,-
+'Thomas Ellman',13,0,0,8,1,0,2,+
+'Thomas G. Dietterich',20,1,0,11,2,1,3,-
+'Thomas G. Spalthoff',19,0,0,12,2,1,3,+
+'Thomas Wengerek',15,0,0,9,1,0,2,-
+'Thomas Zeugmann',15,0,0,9,1,0,2,-
+'Timothy P. Barber',17,0,0,10,2,1,3,+
+'Tom Bylander',12,1,0,8,1,0,2,+
+'Tom Fawcett',11,0,0,7,1,0,2,+
+'Tom Hancock',11,0,0,7,1,0,2,+
+'Tom M. Mitchell',15,0,0,9,2,1,3,+
+'Toshiyasu Matsushima',20,1,0,11,1,0,2,-
+'Usama Fayyad',12,1,1,6,1,0,2,-
+'Vijay Raghavan',14,1,0,8,1,0,2,-
+'Von-Wun Soo',11,0,0,6,1,0,2,+
+'Wai Lam',7,0,0,3,1,0,2,+
+'Wan P. Chiang',13,0,0,7,2,1,3,+
+'Wee Sun Lee',11,0,0,4,2,0,3,-
+'Welton Becket',13,0,0,8,1,0,2,+
+'William A. Greene',17,0,0,7,2,1,3,-
+'William Cohen',13,0,0,7,1,0,2,-
+'William Gasarch',15,0,0,9,1,0,2,-
+'William Sakas',13,0,0,7,1,0,2,-
+'Wolfgang Janko',14,1,0,9,1,0,2,+
+'Wolfgang Maass',14,1,0,9,1,0,2,+
+'Wray Buntine',12,1,0,7,1,0,2,+
+'Xuemei Wang',11,0,0,5,1,0,2,-
+'Yishay Mansour',14,1,0,8,1,0,2,-
+'Yoav Freund',11,0,0,6,1,0,2,+
+'Yolanda Gil',11,0,0,6,1,0,2,+
+'Yoram Singer',12,1,0,7,1,0,2,+
+'Yoshifumi Sakai',15,0,0,7,1,0,2,-
+'Zhixiang Chen',13,0,0,8,1,0,2,+
